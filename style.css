@@ -12,6 +12,7 @@ html {
 
 body {
   font-family: "Space Grotesk", sans-serif;
+  width: 100%;
 }
 
 .header {
@@ -24,7 +25,7 @@ body {
 }
 
 .logo {
-  width: 200px;
+  width: auto;
   height: 200px;
 }
 
@@ -145,6 +146,10 @@ body {
   display: flex;
   flex-direction: column;
   gap: 10rem;
+}
+
+.product-img {
+  width: auto;
 }
 
 .top,
