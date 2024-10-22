@@ -93,6 +93,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 2rem 6rem 0;
+  margin-bottom: 9.8rem;
 }
 
 .logos-div {
@@ -123,7 +124,7 @@ body {
 }
 
 .product-subheading {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 /* HELPERS PROPERTIES FOR PRODUCTS SECTION */
@@ -251,4 +252,78 @@ body {
   cursor: pointer;
   background-color: #b9ff66;
   transition: all 0.3s;
+}
+
+.case-wrap {
+  margin: 5rem 0 8rem 0;
+  width: 100%;
+  border-radius: 35px;
+  background-color: #191a23;
+  display: flex;
+  align-items: center;
+}
+
+.case-grid {
+  flex-grow: 1;
+  justify-content: space-between;
+  padding: 6rem 7rem 8rem 7rem;
+}
+
+.vertical {
+  border-left: 2px solid #f3f3f3;
+  height: 200px;
+}
+
+.case-text {
+  margin-bottom: 2.5rem;
+  color: #f3f3f3;
+}
+
+.case-more {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  color: #b9ff66;
+}
+
+.work-wrap {
+  width: auto;
+  border-radius: 35px;
+  box-shadow: 0 2px #333, 0 0.5em;
+  background-color: #b9ff66;
+  padding: 0 5rem 0 5rem;
+  margin-top: 5rem;
+}
+
+.work-wrap-active {
+  width: auto;
+  border-radius: 35px;
+  box-shadow: 0 2px #333, 0 0.5em;
+  background-color: #f3f3f3;
+  padding: 0 5rem 0 5rem;
+  margin-top: 5rem;
+}
+
+.work-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5rem 0 5rem 0;
+  margin-bottom: 5rem;
+}
+
+.work-texts {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.work-num {
+  font-size: 7rem;
+  font-weight: 500;
+}
+
+.work-heading {
+  font-size: 4rem;
+  font-weight: 500;
 }
