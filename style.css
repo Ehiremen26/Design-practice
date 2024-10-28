@@ -329,9 +329,10 @@ body {
 }
 
 .team-section {
-  margin-top: 5rem;
+  margin: 5rem 0 5rem 0;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 35px;
 }
 
 .team-wrap {
@@ -354,7 +355,7 @@ body {
 .team-name {
   flex-grow: 1;
   padding-top: 5rem;
-  margin: 0 10px 0 20px;
+  margin: 0 10px 0 25px;
 
   font-size: 20px;
   font-weight: 500;
@@ -365,6 +366,17 @@ body {
   font-weight: 400;
 }
 
-.divider {
-  border: 0.02px solid black;
+.team-experience {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.flex-left {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.flex-button {
+  margin-right: 105px;
 }
